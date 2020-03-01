@@ -14,7 +14,7 @@ export function filterFalsy(array: any[]): any[] {
  * Find the max value in the input and return it
  * @param arr
  */
-export const max = (arr: number[]): number => {
+export const max = (array: number[]): number => {
   return 0
 }
 
@@ -40,7 +40,7 @@ export function sortUsers(users: User[]): User[] {
  * @param from the starting position, inclusive
  * @param to the ending position, inclusive
  */
-export function section<T>(arr: T[], from: number, to: number): T[] {
+export function section<T>(array: T[], from: number, to: number): T[] {
   return []
 }
 
@@ -49,7 +49,7 @@ export function section<T>(arr: T[], from: number, to: number): T[] {
  * @param arr1 the first array
  * @param arr2 the second array
  */
-export function addArrays(arr1: number[], arr2: number[]): number {
+export function addArrays(array1: number[], array2: number[]): number {
   return 0
 }
 
@@ -65,7 +65,7 @@ export function reverse(str: string): string {
  * Return te array without the second and third items
  * @param arr
  */
-export function withoutSecondAndThird(arr: any[]): any[] {
+export function withoutSecondAndThird(array: any[]): any[] {
   return []
 }
 
